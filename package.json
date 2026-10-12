@@ -1,0 +1,12 @@
+{
+  "name": "tenantly-lite",
+  "version": "1.0.0",
+  "description": "Enterprise Multi-Tenant SaaS Platform (Non-Docker, Local MongoDB Setup)",
+  "scripts": {
+    "start:backend": "cd backend && npm start",
+    "dev:backend": "cd backend && npm run dev",
+    "seed:backend": "cd backend && node src/initDb.js",
+    "start:frontend": "cd frontend && npm start",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install"
+  }
+}

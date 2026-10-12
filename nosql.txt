@@ -1,0 +1,16 @@
+Steps to Start redis server
+
+open ubuntu wsl then type the commands
+sudo service redis-server start
+sudo service redis-server status
+sudo service redis-server stop
+
+
+For redis data to be shown use:
+http://127.0.0.1:5000/api/cache/keys
+
+
+For API health:
+http://127.0.0.1:5000/api/health
+
+
